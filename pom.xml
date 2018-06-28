@@ -5,7 +5,6 @@
 
     <groupId>br.com.cadastra</groupId>
     <artifactId>Cadastra</artifactId>
-    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>Cadastra</name>
