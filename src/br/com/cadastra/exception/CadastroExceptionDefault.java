@@ -2,7 +2,12 @@ package br.com.cadastra.exception;
 
 public class CadastroExceptionDefault extends RuntimeException implements CadastroException {
 
-    public CadastroExceptionDefault(String message) {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public CadastroExceptionDefault(String message) {
         super(message);
     }
 

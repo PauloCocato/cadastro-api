@@ -1,6 +1,5 @@
 package br.com.cadastra.security;
 
-import com.formento.cadastro.exception.UnauthorizedCadastroExceptionDefault;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;

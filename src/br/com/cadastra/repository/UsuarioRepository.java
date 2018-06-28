@@ -1,6 +1,6 @@
 package br.com.cadastra.repository;
 
-import com.formento.cadastro.model.Usuario;
+import br.com.cadastra.model.Usuario;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;

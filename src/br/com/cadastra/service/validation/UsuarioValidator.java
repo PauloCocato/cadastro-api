@@ -1,6 +1,6 @@
 package br.com.cadastra.service.validation;
 
-import com.formento.cadastro.model.Usuario;
+import br.com.cadastra.model.Usuario;
 
 public interface UsuarioValidator {
 

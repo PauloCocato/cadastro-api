@@ -1,10 +1,7 @@
 package br.com.cadastra.security;
 
-import com.formento.cadastro.model.Usuario;
-import com.formento.cadastro.util.LocalDateUtil;
-
+import br.com.cadastra.model.Usuario;
 import java.util.ArrayList;
-import java.util.Date;
 
 public final class JwtUserFactory {
 

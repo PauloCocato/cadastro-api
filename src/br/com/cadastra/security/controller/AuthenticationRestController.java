@@ -1,9 +1,9 @@
 package br.com.cadastra.security.controller;
 
-import com.formento.cadastro.api.v1.usuario.controller.UsuarioController;
-import com.formento.cadastro.model.Usuario;
-import com.formento.cadastro.security.JwtAuthenticationRequest;
-import com.formento.cadastro.security.service.AuthenticationRestService;
+import br.com.cadastra.api.v1.usuario.controller.UsuarioController;
+import br.com.cadastra.model.Usuario;
+import br.com.cadastra.security.JwtAuthenticationRequest;
+import br.com.cadastra.security.service.AuthenticationRestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.Resource;
 import org.springframework.http.ResponseEntity;

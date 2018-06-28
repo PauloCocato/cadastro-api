@@ -3,7 +3,7 @@ package br.com.cadastra.model.converter;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
-import com.formento.cadastro.util.LocalDateTimeUtil;
+import br.com.cadastra.util.LocalDateTimeUtil;
 
 import java.io.IOException;
 import java.time.LocalDateTime;

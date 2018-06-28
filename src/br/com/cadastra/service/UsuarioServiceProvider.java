@@ -1,13 +1,13 @@
 package br.com.cadastra.service;
 
-import com.formento.cadastro.exception.UnauthorizedCadastroExceptionDefault;
-import com.formento.cadastro.model.Usuario;
-import com.formento.cadastro.repository.UsuarioRepository;
-import com.formento.cadastro.security.UsuarioAuthentication;
-import com.formento.cadastro.security.component.JwtTokenUtil;
-import com.formento.cadastro.security.service.AuthenticationRestService;
-import com.formento.cadastro.service.component.CodificadorComponent;
-import com.formento.cadastro.service.validation.UsuarioValidator;
+import br.com.cadastra.exception.UnauthorizedCadastroExceptionDefault;
+import br.com.cadastra.model.Usuario;
+import br.com.cadastra.repository.UsuarioRepository;
+import br.com.cadastra.security.UsuarioAuthentication;
+import br.com.cadastra.security.component.JwtTokenUtil;
+import br.com.cadastra.security.service.AuthenticationRestService;
+import br.com.cadastra.service.component.CodificadorComponent;
+import br.com.cadastra.service.validation.UsuarioValidator;
 import com.google.common.base.Preconditions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

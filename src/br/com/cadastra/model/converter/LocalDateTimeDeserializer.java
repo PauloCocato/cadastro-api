@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
-import com.formento.cadastro.util.LocalDateTimeUtil;
+import br.com.cadastra.util.LocalDateTimeUtil;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
