@@ -3,10 +3,11 @@ package br.com.cadastra.model;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.hibernate.validator.constraints.NotEmpty;
-
 import javax.persistence.Embeddable;
 import javax.validation.constraints.NotNull;
+
+import org.hibernate.validator.constraints.NotEmpty;
+
 import java.io.Serializable;
 
 @Embeddable
