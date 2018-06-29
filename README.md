@@ -1,5 +1,13 @@
 # cadastro-api
 
+**Tecnologias**
+- Java 8, Maven,
+- Hibernate, HSQLDB
+- JUnit, Fixture Factory, MockMvc
+- Spring Boot, Spring Security, Spring Data Rest, Spring hateoas
+- JWT
+- Continuous Integration - Heroku integrado com o GitHub
+
 # endpoint
 https://cadastra.herokuapp.com/
 
@@ -27,7 +35,7 @@ Isto retornará um JSON com o usuário e o token que dará acesso ao sistema.
 
 *Obs.: O Token é válido por 30 minutos.*
 
-![Cadastro](/screens/cadastro.png?raw=true "Cadastro")
+![Cadastro](/screens/Cadastro.png?raw=true "Cadastro")
 
 # Consulta de usuário
 
@@ -38,7 +46,7 @@ E no header da requisição é necessário informar o key: `Authorization`
 No value é necessário informar `Bearer {token}`
 Isto retornará os dados atualizados do usuário
 
-![Consulta](/screens/consulta.png?raw=true "Consulta")
+![Consulta](/screens/Usuarios.png?raw=true "Consulta")
 
 # Login
 
@@ -53,7 +61,7 @@ método: POST
 }
 ```
 
-![Login](/screens/login.png?raw=true "Login")
+![Login](/screens/Login.png?raw=true "Login")
 
 **As mensagens de erro seguem o seguinte padrão:**
 ```json
